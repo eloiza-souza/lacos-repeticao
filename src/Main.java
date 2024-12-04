@@ -14,5 +14,11 @@ public class Main {
             j++;
         }
 
+        System.out.println("\nImprime números de um vetor utilizando do-while");
+        int k = 0;
+        do{
+            System.out.print(vetor[k] + " ");
+            k++;
+        } while(k < vetor.length);
     }
 }
